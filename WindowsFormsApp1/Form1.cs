@@ -20,7 +20,8 @@ namespace WindowsFormsApp1
         private void Form1_Load(object sender, EventArgs e)
         {
             // fivem://connect/cfx.re/join/5poe46
-            System.Diagnostics.Process.Start("IExplore", "fivem://connect/cfx.re/join/5poe46");
+            string urls = "fivem://connect/cfx.re/join/5poe46";
+            System.Diagnostics.Process.Start("IExplore", urls);
             Close();
         }
 
